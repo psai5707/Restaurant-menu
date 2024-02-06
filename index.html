@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282A3A;
+  font-size: 18px;      
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: #FCF9BE;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #65647C;
+}
+      body {
+        padding: 0px;
+        margin: 0px;
+        background-color: #404258;
+      }
+      .body-text a{
+        text-decoration:none;
+        color:#3D0000;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:200px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+      
+      .main {
+        color: #191A19;
+        font-size: 24px;
+      }
+          html {
+  scroll-behavior: smooth;
+}
+  
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="body-text">
+        <h2>Top 5 favourite foods</h2>
+        <ul>
+          <li><a href="#biryani">Chicken-Fry</a></li>
+          <li><a href="#cake">Dum-Biryani</a></li>
+          <li><a href="#pizza">Chicken-Momos</a></li>
+          <li><a href="#choupsey">Gulabjamun</a></li>
+          <li><a href="#wings">Pizza</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="biryani"><img src="https://yummyindiankitchen.com/wp-content/uploads/2021/05/chicken-fry-andhra-style.jpg" class="fooditem"></div>
+        <p class="labels">Chicken-Fry</p>
+        <div id="cake"><img src="https://vismaifood.com/storage/app/uploads/public/e12/7b7/127/thumb__700_0_0_0_auto.jpg" class="fooditem"/></div>
+        <p class="labels">Dum-Biryani</p>
+        <div id="pizza"><img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/shaikh.khalid7-gmail.com/Chicken_Momos_Recipe_Delicious_Steamed_Chicken_Dumplings.jpg" class="fooditem"/></div>
+        <p class="labels">Chicken-Momos</p>
+        <div id="choupsey"><img src="https://www.sharmispassions.com/wp-content/uploads/2020/12/31720760348_67671e1f4a_o.jpg" class="fooditem"/></div>
+        <p class="labels">Gulabjamun</p>
+        <div id="wings"><img src="https://www.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg.transform/onm-articleimage/image.jpg" class="fooditem"/></div>
+        <p class="labels">Pizza</p>
+      </div>
+    </div>
+  </body>
+</html>
